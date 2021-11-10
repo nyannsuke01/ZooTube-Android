@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">MyTube</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="notif">Notifications</string>
+    <string name="subs">Subscriptions</string>
+    <string name="library">Library</string>
+    <string name="video_subtitle">%s . %s views . %d %s</string>
+    <string name="video_subtitle2">%s . %s views . %s</string>
+    <string name="video_published_time">%d %s</string>
+    <string name="recent">just now</string>
+    <string name="go_back">Go back to Home screen</string>
+    <string name="search_mytube">Search Mytube</string>
+    <string name="playlists">Playlists</string>
+    <string name="video_options">Video options</string>
+    <string name="replay_video_10">Replay video by 10 seconds</string>
+    <string name="fast_forward_video_10">Fast forward by 10 seconds</string>
+    <string name="open_dropdown">Open video description</string>
+    <string name="like">Like</string>
+    <string name="save">Save</string>
+    <string name="view_count">%s views</string>
+    <string name="joined_on">Joined %s</string>
+    <string name="download">Download</string>
+    <string name="share">Share</string>
+    <string name="subscribe">subscribe</string>
+    <string name="comments">Comments</string>
+    <string name="commenting_username_and_posted_date">%s . %s</string>
+    <string name="playlist_video_count">%d videos</string>
+    <plurals name="dayCount">
+        <item quantity="one"> day ago</item>
+        <item quantity="other"> days ago</item>
+    </plurals>
+    <plurals name="hourCount">
+        <item quantity="one"> hour ago</item>
+        <item quantity="other"> hours ago</item>
+    </plurals>
+    <plurals name="minCount">
+        <item quantity="one"> minute ago</item>
+        <item quantity="other"> minutes ago</item>
+    </plurals>
+    <plurals name="secondCount">
+        <item quantity="one"> second ago</item>
+        <item quantity="other"> seconds ago</item>
+    </plurals>
+    <plurals name="weekCount">
+        <item quantity="one"> week ago</item>
+        <item quantity="other"> weeks ago</item>
+    </plurals>
+    <plurals name="monthCount">
+        <item quantity="one"> month ago</item>
+        <item quantity="other"> months ago</item>
+    </plurals>
+    <plurals name="yearCount">
+        <item quantity="one"> year ago</item>
+        <item quantity="other"> years ago</item>
+    </plurals>
+    <string name="subscribers">%s subscribers</string>
+    <string name="replies">%s REPLIES</string>
+    <string name="filter_comments">Filter comments</string>
+    <string name="close_comments">close comments</string>
+    <string name="replies_label">Replies</string>
+    <string name="close_description">Close description</string>
+    <string name="likes">Likes</string>
+    <string name="views">Views</string>
+    <string name="custom_channel_link">http://www.youtube.com/c/%s</string>
+    <string name="default_channel_link">http://www.youtube.com/channel/%s</string>
+    <string name="description">Description</string>
+    <string name="retry">Retry</string>
+    <string name="network_error">Network error image</string>
+    <string name="partial_network_error">Partially Loaded videos error</string>
+    <string name="save_to_playlist">Save to Playlist</string>
+    <string name="save_to_watch_later">Save to Watch Later</string>
+    <string name="download_video">Download video</string>
+    <string name="share_video">Share</string>
+    <string name="channel_video_count">%s videos</string>
+    <string name="channel_banner_image">Channel Banner Image</string>
+    <string name="default_channel_description">More about this channel</string>
+    <string name="load_remaining_videos">Load remaining videos</string>
+    <string name="sort_by">Sort by</string>
+    <string name="most_popular">Most Popular</string>
+    <string name="date_added_descending">Date added (newest)</string>
+    <string name="no_playlists">This channel has no playlists</string>
+    <string name="shuffle_and_start_a_video">Shuffle the playlist and start a video</string>
+    <string name="add_to_your_playlists">Add to  your playlists</string>
+    <string name="download_entire_playlist">Download this playlist</string>
+    <string name="share_playlist">Share this playlist</string>
+    <string name="no_related_channels">This Channel has no related channels</string>
+    <string name="channel_description_label">Description</string>
+    <string name="more_info">More info</string>
+    <string name="recent_videos">Recent</string>
+    <string name="recent_video_thumbnail">Recent Video Thumbnail</string>
+    <string name="remove_from_watch_history">Remove from watch history</string>
+    <string name="history">History</string>
+    <string name="downloaded_videos">Downloads</string>
+    <string name="watch_later_videos">Watch later</string>
+    <string name="liked_videos">Liked videos</string>
+    <string name="sort">Sort</string>
+    <string name="date_added_ascending">Date added (oldest)</string>
+    <string name="date_published_descending">Date published (newest)</string>
+    <string name="date_published_ascending">Date published (oldest)</string>
+    <string name="unwatched_videos_count">%d unwatched videos</string>
+    <string name="remove_from_liked_videos">Remove from liked videos</string>
+    <string name="saved">Saved</string>
+    <string name="remove_from_watch_later">Remove from Watch later</string>
+    <string name="video_already_watched">Video has been watched</string>
+</resources>

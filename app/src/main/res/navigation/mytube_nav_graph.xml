@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mytube_nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.mytube.UI.Fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_videoActivity"
+            app:destination="@id/videoActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/libraryFragment"
+        android:name="com.example.mytube.UI.Fragments.LibraryFragment"
+        android:label="fragment_library"
+        tools:layout="@layout/fragment_library" >
+        <action
+            android:id="@+id/action_libraryFragment_to_videoActivity"
+            app:destination="@id/videoActivity" />
+        <action
+            android:id="@+id/action_libraryFragment_to_watchHistoryFragment"
+            app:destination="@id/watchHistoryFragment" />
+        <action
+            android:id="@+id/action_libraryFragment_to_watchLaterFragment"
+            app:destination="@id/watchLaterFragment" />
+        <action
+            android:id="@+id/action_libraryFragment_to_likedVideosFragment"
+            app:destination="@id/likedVideosFragment" />
+    </fragment>
+    <activity
+        android:id="@+id/videoActivity"
+        android:name="com.example.mytube.UI.VideoActivity"
+        android:label="activity_video"
+        tools:layout="@layout/activity_video" />
+    <activity
+        android:id="@+id/searchActivity"
+        android:name="com.example.mytube.UI.SearchActivity"
+        android:label="activity_search"
+        tools:layout="@layout/activity_search" />
+    <fragment
+        android:id="@+id/searchResultsFragment"
+        android:name="com.example.mytube.UI.Fragments.SearchResultsFragment"
+        android:label="fragment_search_results"
+        tools:layout="@layout/fragment_search_results" />
+    <fragment
+        android:id="@+id/watchHistoryFragment"
+        android:name="com.example.mytube.UI.Fragments.WatchHistoryFragment"
+        android:label="fragment_watch_history"
+        tools:layout="@layout/fragment_watch_history" />
+    <fragment
+        android:id="@+id/watchLaterFragment"
+        android:name="com.example.mytube.UI.Fragments.WatchLaterFragment"
+        android:label="fragment_watch_later"
+        tools:layout="@layout/fragment_watch_later" />
+    <fragment
+        android:id="@+id/likedVideosFragment"
+        android:name="com.example.mytube.UI.Fragments.LikedVideosFragment"
+        android:label="fragment_liked_videos"
+        tools:layout="@layout/fragment_liked_videos" />
+</navigation>
