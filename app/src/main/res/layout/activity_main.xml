@@ -21,23 +21,31 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
-            <FrameLayout
+            <LinearLayout
                 android:id="@+id/youtubeLogoContainer"
-                android:layout_width="150dp"
-                android:layout_height="match_parent"
+                android:layout_width="190dp"
+                android:layout_height="55dp"
                 android:padding="11dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
 
                 <ImageView
-                    android:id="@+id/youtubeLogo"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:id="@+id/icon"
+                    android:layout_width="47dp"
+                    android:layout_height="41dp"
                     android:importantForAccessibility="no"
                     android:scaleType="fitXY"
-                    android:src="@drawable/mytubelogo" />
+                    android:src="@drawable/ic_rogo" />
 
-            </FrameLayout>
+                <ImageView
+                    android:id="@+id/ZooTube"
+                    android:layout_width="84dp"
+                    android:layout_height="42dp"
+                    android:importantForAccessibility="no"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_zootube" />
+
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="180dp"
@@ -46,17 +54,6 @@
                 android:orientation="horizontal"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
-
-                <ImageView
-                    android:id="@+id/newVideo"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/ic_baseline_videocam_24"
-                    android:padding="8dp"
-                    android:layout_weight="1"
-                    android:importantForAccessibility="no"
-                    android:clickable="true"
-                    android:focusable="true"/>
 
                 <ImageView
                     android:id="@+id/search"
@@ -69,6 +66,17 @@
                     android:clickable="true"
                     android:focusable="true"
                     android:background="?attr/selectableItemBackgroundBorderless"/>
+
+                <ImageView
+                    android:id="@+id/newVideo"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:importantForAccessibility="no"
+                    android:padding="8dp"
+                    android:src="@drawable/ic_setting" />
 
                 <ImageView
                     android:id="@+id/account"
